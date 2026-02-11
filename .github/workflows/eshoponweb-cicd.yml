@@ -1,5 +1,5 @@
 name: eShopOnWeb Build and Test
-
+#test
 #Triggers (uncomment line below to use it)
 on: [push, workflow_dispatch]
 
@@ -9,7 +9,7 @@ env:
   LOCATION: westeurope
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 1a1b02ee-ca4e-4374-a0a2-63f7ae21138a
-  WEBAPP-NAME: eshoponweb-webapp-NAzzzzzzzasadasdad3214324234
+  WEBAPP-NAME: karolek1989
 
 jobs:
   #Build, test and publish .net web project in repository
